@@ -42,7 +42,7 @@ test('Should ignore exclude values that are not in the list of possibilities', (
       // @ts-ignore
       .toBest({ exclude: ['not_possible'] }),
     expected = {
-      val: 1.2,
+      val: 2,
       unit: 'm',
       singular: 'Meter',
       plural: 'Meters',
